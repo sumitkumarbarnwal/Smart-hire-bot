@@ -1,0 +1,21 @@
+{
+  "name": "smart-hire-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Telegram bot that scores resumes against job descriptions and provides optimization suggestions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["resume", "scorer", "telegram", "bot", "ai", "gemini"],
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "docx": "^9.1.1",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.0",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.16.0"
+  }
+}
